@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* input search code start here */
+
+/* .searchContainer{
+    color: #2C3333;
+    border-color: transparent;
+    border-style: none;
+} */
+
+/* input */
+input{
+    background-color: #f5f5f5;
+    
+    border-radius: 10px;
+    padding-left: 1rem;
+    outline: none;
+    
+}
+
+/* bell container */
+.bellContainer i{
+    background-color:transparent;
+    border-radius: 50% ;
+    border: 1px solid #F582A7;
+    margin-left: 1rem;
+    padding: 5px;
+    
+    
+}
+/* left-card code here */
+
+.cardBottomHead{
+    /* position: relative; */
+    width: 100%;
+}
+.cardBottom1{
+    /* position: absolute; */
+    width: 30%;
+    border-radius: 15px;
+    /* left: 0; */
+    text-align: center;
+    background-color:#2C3333 ;
+    /* margin: 5px; */
+}
+.cardBottom2{
+    /* position: absolute; */
+    width: 30%;
+    border-radius: 15px;
+    /* margin-left:8rem; */
+    text-align: center;
+}
+
+.cardBottom3{
+    /* position: absolute; */
+    width: 30%;
+    border-radius: 15px;
+    /* left: 16rem ; */
+    text-align: center;
+
+}
+
+
+.card2Bottom{
+    border-radius: 2rem;
+
+}
+
+/* right-side-top style */
+
+#right-side-top-h1 {
+    font-size: 2rem;
+    color: #FE8F8F;
+}
+
+#largeh6{
+    font-size: xx-large;
+    color:#FE8F8F;
+}
+
+
+/* sun images code  */
+
+.main-container{
+    background-color: #2C3333;
+    border-radius: 10px;
+}
+
+.left-container img{
+    padding-left: 1rem;
+}
+
+
+/* sun icon right part of the web page in a div top */
+#sunIcon{
+    background-color: #2C3333;
+    border-radius: 1rem;
+    color: white;
+}
+
+.Icon{
+    color: #FE8F8F;
+    padding-top: 5px;
+}
+.uIcon{
+    background-color: #FE8F8F;
+}
+
+/* weather prediction code start here */
+.weather-container{
+    margin: 1rem;
+}
+
+
+#colorRed{
+    color: #FE8F8F;
+}
+
+#left2{
+    border-radius: 15px;
+}
+
+/* card code  */
+
+
+
+#btnDiv{
+    background-color: #F582A7;
+    border-radius: 1rem;
+    
+}
+
+
+/* float p left and right */
+
+#float-right{
+    float: right;
+}
+
+#float-right{
+    float: right;
+}
+
+
+/* sunset and sunrise css code start below */
+.sunsetPart{
+    width: 200px;
+    height: 100px;
+    border-radius: 150px 150px 0 0;
+    border: 2px dotted #F582A7;
+}
+
+.sunsetContainer{
+    position: relative;
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+.sunsetHr{
+    position: absolute;
+    bottom: 0;
+    border: 5px solid black;
+}
+
+/* hr into  good and hazard  div */
+#hr{
+    height: 1rem;
+    width:100%;
+    border: 5px solid  #FE8F8F;
+    margin-bottom: 5px;
+}
+
+/* style */
+
+.moderate{
+    background-color: #C0B236;
+    /* height: inherit; */
+    margin-left: 10px;
+    padding: 0 1rem ;
+    border-radius: 20px;
+   
+}
+
+
+/* //Today Icon style change */
+/* 
+#todayIcon{
+    margin-left: 20px;
+} */
