@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kanjilal1122/weather-app/static/css/main.2f6faa03.css",
+    "main.js": "/kanjilal1122/weather-app/static/js/main.3f344471.js",
+    "static/media/fog-dark-clouds-mountains.jpg": "/kanjilal1122/weather-app/static/media/fog-dark-clouds-mountains.3450c98b25727188607d.jpg",
+    "static/media/25501.jpg": "/kanjilal1122/weather-app/static/media/25501.fe6cd0d8bcd5c44cd7c0.jpg",
+    "static/media/user-profile.png": "/kanjilal1122/weather-app/static/media/user-profile.97ee46527726b700b80e.png",
+    "index.html": "/kanjilal1122/weather-app/index.html",
+    "main.2f6faa03.css.map": "/kanjilal1122/weather-app/static/css/main.2f6faa03.css.map",
+    "main.3f344471.js.map": "/kanjilal1122/weather-app/static/js/main.3f344471.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f6faa03.css",
+    "static/js/main.3f344471.js"
+  ]
+}

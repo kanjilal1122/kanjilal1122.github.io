@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather test </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/sun-icon-bright-yellow-sol-symbol-with-rays-childish-simple-style_53562-14613 (1).png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <script src="https://kit.fontawesome.com/af286f2be1.js" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">         
+         <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 col-sm-auto col-md-auto  bg-white  ">
+                    <div class="d-flex flex-sm-column flex-row flex-nowrap bg-white align-items-center sticky-top">
+                        <a href="#" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+                            <i class="fa-brands fa-drupal fa-3x">  </i>
+                            NGIJGH
+                        </a>
+                        <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" >
+                                    <i class="bi bi-file-bar-graph  btn btn-outline-danger m-1 "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                                    <i class="bi bi-geo-alt btn btn-outline-danger "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+                                    <i class="bi bi-calendar4 btn btn-outline-danger "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Products">
+                                    <i class="bi bi-gear btn btn-outline-danger "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link py-3 px-2  " title="" data-bs-toggle="tooltip" data-bs-placement="right" >
+                                    <i class="bi bi-box-arrow-right btn  "></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-sm-auto col-lg-8 col-md-8 bg-white p-3 min-vh-100">
+                    <!-- content -->
+                    <nav class="navbar navbar-expand-lg navbar-white bg-white ">
+                        <div class="container-fluid d-flex">
+                            <div class="left-navbar justify-content-start">
+                                <span class="d-flex">
+                                    <img src="images/user-profile.png" alt="Userprofile_photo" width="10%" height="10%">
+                                    <span >
+                                        <h4>Hello,</h4>
+                                        <b>Jack Grealish</b>
+
+                                    </span>
+                                </span>
+
+                            </div>
+                            <div class=" right-navbar d-flex justify-content-between">
+                                <div class="searchContainer ">
+                                    <input type="text" name="searchInput" id="search" placeholder="Search anything...">
+                                    <!-- <i class="bi bi-search"></i> -->
+                                </div>
+                                <div class="bellContainer ">
+                                    <a href="#"> <i class="bi bi-bell  "></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                    <!-- navbar end here -->
+
+                    <!-- two card start here -->
+
+                        <div class="row">
+                            <div class=" col-lg-6 col-md-12  " >
+                              <div class="card  d-flex  text-white">
+                                <img src="images/fog-dark-clouds-mountains.jpg" alt="Fog-images" class="card-img">
+                                <div class="card-img-overlay ">
+                                    <div class="d-flex ">
+                                        <i class="bi bi-clouds   "></i>
+                                    <div class="mx-2">
+                                        <span>
+                                            <h5>Weather</h5>
+                                            <span><p>what's the weather.</p></span>
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <!-- middle part -->
+                                    <span ><h2 id="largeh6"   class="d-inline temp ">22&deg;c</h2>
+                                        <span id="span_temp" class=" bg-secondary rounded-pill temp ">11&deg;c</span>
+                                    </span>
+                                        <p id="cloudStatus">partly cloudy</p>
+
+                                    <!-- lower part   here one part devided into three part -->
+                                    <div class="container d-flex justify-content-between cardBottomHead">
+                                        <div class="  cardBottom1">
+                                            <p >pressure</p>
+                                            <h4 class="pressureStatus">800mb</h4>
+                                        </div>
+                                        <div class="   bg-info cardBottom2">
+                                            <p>visibility</p>
+                                            <h4>4.3 km</h4>
+                                        </div>
+                                        <div class="  bg-primary cardBottom3">
+                                            <p>Humadity</p>
+                                            <h4 class="humidityStatus">87%</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div  class="col-lg-6 col-md-12  ">
+                               <div class="card text-white">
+                                 <img src="images/25501.jpg" alt="Unknown" class="card-img">
+                                    <div class="card-img-overlay">
+                                    <div class="d-flex mx-2">
+                                        <i class="bi bi-wind "></i>
+                                        <div class="mx-2">
+                                            <span >
+                                                <h5>Air Quality</h5>
+                                                <span ><p>Main Pollution : PM 2.5</p></span>
+                                                </span>
+                                        </div>
+                                    </div>
+                                    <span class="d-flex">
+                                        <h2 class="windDeg">390 </h2>
+                                        <span class="bg-dark rounded-pill m-1">AQI</span>
+                                    </span>
+
+                                    <p>West Wind</p>
+
+                                    <div class=" d-flex justify-content-between container text-dark   bg-white card2Bottom">
+                                        <div >
+                                            <p >Good</p>
+                                        </div>
+                                        <div>
+                                            <p >Hazardous</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               </div>
+                            </div>
+
+                            <!-- Third part start here  -->
+
+                            <div class="row mt-3">
+                                <div class="col-8 ">
+                                    <div class="d-flex">
+                                        <div class="hp ">
+                                            <span>
+                                                <h4>How's the</h4>
+                                                <span>
+                                                    <h4>Teampreture  Today's</h4>
+                                                </span>
+                                            </span>
+
+                                        </div>
+                                        <div class=" icon-temp-umb-wind ">
+                                            <a href="#" ><i class="bi bi-umbrella rounded-3 uIcon"></i></a>
+                                            <a href="#"> <i class="bi bi-wind rounded-3 wIcon "></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-row bg-light ">
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 ">
+                                    <div class="card">
+                                        <img class="card-img" src="images/man-walking-rainwith-umbrealla.webp" alt="This is a images">
+                                        <div class="card-img-overlay">
+                                            <div class="card-header">
+                                                <p >Tomorrow </p>
+                                            <h3 class="tomorrowCityStatus">Alam Bazarah</h3>
+                                            </div>
+                                            <div class="lower">
+                                                <h3 class="tomorrowTemp">22&deg;c</h3>
+                                                <p class="tomorrowRainStatus">Rainy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                </div>
+
+                <div class="col-lg-3 container bg-light">
+
+                    <div class="row">
+
+                        <div class="col-8 mt-3">
+                            <span>
+                                <h6 class="dayStatus">Sun</h6>
+                                <span>
+                                    <p id="country">banten , Indonesia</p>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="col-4 m-auto">
+                            <h1 id="right-side-top-h1" class="temp">22&deg;c</h1>
+                        </div>
+
+                    </div>
+
+                    <hr />
+
+                    <div class="container sunsetContainer">
+                        <div class="sunsetPart">
+                            
+                        </div>
+                        <!-- <hr class="sunsetHr"/> -->
+                    </div>
+
+                    <div class="container d-flex justify-content-between">
+                        <div class="d-flex">
+                           <span>
+                             <h6>sunset</h6>
+                                <span>
+                                 <p id="sunsetTime">6:00 am</p>
+                                </span>
+                            </span>
+                          
+                        </div>
+                        <div class="d-flex">
+                            <span>
+                                <h6>sunrise</h6>
+                                <span>
+                                    <p id="sunriseTime">6:45 pm</p>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- <div class="container d-flex justify-content-between">
+                        <div class="d-flex"><p>6:00 am</p></div>
+                        <div class="d-flex"><p> 6:45 pm</p></div>
+                    </div> -->
+
+                    <div  id="sunIcon" class="container d-flex justify-content-between">
+                        <div id="todayIcon" class="icon d-flex align-items-center ">
+                            <a href="#"><i class="bi bi-brightness-high-fill fs-1 Icon "></i></a>
+                        </div>
+                        <div class="middle m-1">
+                            <div class="d-flex justify-content-start">
+                                <div>
+                                    <h4 class="uvValue">20 UVI</h4>
+                                </div>
+                                <div class="moderate d-flex align-items-center">
+                                    <p class="uvStatus">Moderate</p>
+                                </div>
+                            </div>
+                            <p>Moderate risk of from UV</p>
+                        </div>
+                    </div>
+                    <div class=" container weather-container">
+                        <h4>Weather Prediction</h4>
+                    </div> 
+
+                    <!-- weather prediction below part -->
+                    
+                    <div id="left2" class="container d-flex justify-content-between  bg-white">
+                        <div class="d-items" id="iconChange">
+                            <a href="#"><i class="bi bi-clouds fs-1"></i></a>
+                        </div>
+                        <div class="d-items"> 
+                            <p class="tomorrowNext">November 10</p>
+                            <h6 class="tomorrowNextCloudStatus" >Cloudy</h6>
+                        </div>
+                        <div class="d-items d-flex align-items-end">
+                            <p id="colorRed" class="tempDeff" >26&deg;/19&deg;</p>
+                        </div>
+                    </div>
+
+                    <div id="left2" class="container d-flex justify-content-between  bg-white mt-3">
+                        <div class="d-items" id="iconChangeNext">
+                            <a href="#"><i class="bi bi-brightness-high-fill fs-1 Icon"></i></a>
+                        </div>
+                        <div class="d-items"> 
+                            <p class="tomorrowNextNext"> November 11 </p>
+                            <h6 class="tomorrowNextNextCloudStatus">Cloudy</h6>
+                        </div>
+                        <div class="d-items d-flex align-items-end">
+                            <p id="colorRed" class="tempNextDeff">26&deg;/19&deg;</p>
+                        </div>
+                    </div>
+
+                    <div class="container d-flex justify-content-between mt-3">
+                        <div></div>
+                        <div id="btnDiv" class="d-flex justify-content-end">
+                            <div class="d-flex align-items-center px-2 "><a href="#"><i class="bi bi-calendar-day "></i></a></div>
+                            <div class="d-flex "><p class="d-flex align-items-center px-2">Next 5 days</p></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- <script src="https://momentjs.com/downloads/moment.js" ></script> -->
+        <script src="dynamic.js" type="text/javascript"></script>
+    </body>
+</html>
+
+<!-- 
+
+    <div class="input-group">
+                                    <input id="search" class="form-control border-end-0 border rounded-pill" type="text"  placeholder="search anything..." id="example-search-input">
+                                    <span class="input-group-append">
+                                        <button class="btn btn-outline-secondary bg-white border-start-0 border rounded-pill ms-n3" type="button">
+                                            <a href="#" class=" btn btn-outline-0"><i class="bi bi-search  "></i></a>
+                                        </button>
+                                    </span>
+                                    <a href="#">
+                                        <i class="bi bi-bell btn btn-outline-secondary bg-white border-start-0 border rounded-pill m-1"></i>
+                                     </a>
+                             </div>
+ -->
